@@ -1,0 +1,59 @@
+.pagenator{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+.btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    line-height: 16px;
+    background-color: transparent;
+}
+
+.navigationBtn{
+    font-size: 24px;
+}
+
+.digitBtn{
+    font-size: 16px;
+}
+
+.disabled{
+    color: #606060de;
+    pointer-events: none;
+}
+
+.btn:hover{
+    border: 2px solid #664798;;
+}
+
+.active{
+    background-color: #3c1084;
+    color: white;
+}
+
+.active:hover{
+    border: none;
+    background-color: #200251;
+    transition: all 0.2s ease-in-out;
+}
+
+.spacer{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
